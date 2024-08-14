@@ -11,7 +11,7 @@ public class EstruturaControleSwitchCase {
         System.out.print("Informe uma opção de 1 a 7:");
         Scanner scanner = new Scanner(System.in);
         int opcao = Integer.parseInt(scanner.nextLine());
-
+/* 
         switch (opcao){
             case 1 :
                 System.out.println("Domingo");
@@ -37,7 +37,7 @@ public class EstruturaControleSwitchCase {
             default:
                 System.out.println("Opção inválida");
         }
-
+*/
         /**
          * Mas a partir do Java 14 é possível abreviar essa estrutura
          * usando o Arrow Expression ->
